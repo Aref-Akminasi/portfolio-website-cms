@@ -1,5 +1,5 @@
-import aboutMe from './aboutMe'
+import about from './about'
 import skillset from './skillset'
 import projects from './projects'
 
-export const schemaTypes = [aboutMe, skillset, projects]
+export const schemaTypes = [about, skillset, projects]

@@ -1,8 +1,8 @@
-// aboutMe.ts
+// about.ts
 
 export default {
-  name: 'aboutMe',
-  title: 'About Me',
+  name: 'about',
+  title: 'About',
   type: 'document',
   fields: [
     {

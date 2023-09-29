@@ -1,5 +1,3 @@
-// projects.ts
-
 export default {
   name: 'projects',
   title: 'Projects',
@@ -14,6 +12,15 @@ export default {
       name: 'title',
       type: 'string',
       title: 'Project Title',
+    },
+    {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'title',
+        maxLength: 96,
+      },
     },
     {
       name: 'header',

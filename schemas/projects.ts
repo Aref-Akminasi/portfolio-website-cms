@@ -48,8 +48,9 @@ export default {
             },
             {
               name: 'text',
-              type: 'text',
+              type: 'array',
               title: 'Step Text',
+              of: [{type: 'block'}],
             },
             {
               name: 'img',

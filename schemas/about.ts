@@ -19,9 +19,14 @@ export default {
               title: 'Title',
             },
             {
-              name: 'text',
+              name: 'organization',
               type: 'text',
-              title: 'Text',
+              title: 'Organization',
+            },
+            {
+              name: 'period',
+              type: 'text',
+              title: 'Period',
             },
           ],
         },
@@ -41,9 +46,14 @@ export default {
               title: 'Title',
             },
             {
-              name: 'text',
+              name: 'organization',
               type: 'text',
-              title: 'Text',
+              title: 'Organization',
+            },
+            {
+              name: 'period',
+              type: 'text',
+              title: 'Period',
             },
           ],
         },

@@ -20,13 +20,28 @@ export default {
             },
             {
               name: 'organization',
-              type: 'text',
+              type: 'string',
               title: 'Organization',
             },
             {
               name: 'period',
-              type: 'text',
+              type: 'string',
               title: 'Period',
+            },
+            {
+              name: 'location',
+              type: 'string',
+              title: 'location',
+            },
+            {
+              name: 'description',
+              type: 'text',
+              title: 'Description',
+            },
+            {
+              name: 'isPresent',
+              type: 'boolean',
+              title: 'Present',
             },
           ],
         },
@@ -47,35 +62,28 @@ export default {
             },
             {
               name: 'organization',
-              type: 'text',
+              type: 'string',
               title: 'Organization',
             },
             {
               name: 'period',
-              type: 'text',
+              type: 'string',
               title: 'Period',
             },
-          ],
-        },
-      ],
-    },
-    {
-      name: 'languages',
-      title: 'Languages',
-      type: 'array',
-      of: [
-        {
-          type: 'object',
-          fields: [
             {
-              name: 'title',
+              name: 'location',
               type: 'string',
-              title: 'Title',
+              title: 'location',
             },
             {
-              name: 'text',
+              name: 'description',
               type: 'text',
-              title: 'Text',
+              title: 'Description',
+            },
+            {
+              name: 'isPresent',
+              type: 'boolean',
+              title: 'Present',
             },
           ],
         },
